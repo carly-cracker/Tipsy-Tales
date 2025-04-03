@@ -1,5 +1,5 @@
 document.getElementById("ageform").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevents form submission
+    event.preventDefault(); 
 
     let age = parseInt(document.getElementById("age").value);
 
